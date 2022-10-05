@@ -31,11 +31,11 @@
 // let num5 = 4 === 4
 // console.log(num5)
 
-// let num6 = 4 != 4
-// console.log(num6)
+let num6 = 4 != 4
+console.log(num6)
 
-// let num7 = 4 !== 4
-// console.log(num7)
+let num7 = 4 !== 4
+console.log(num7)
 
 // let num8 = 4 != '4'
 // console.log(num8)
@@ -45,6 +45,14 @@
 
 // let num10 = 4 === '4'
 // console.log(num10)
+
+let findLength1 = 'python'
+let findLength2 = 'jargon'
+
+console.log(findLength1.length, findLength2.length)
+
+let falsyLength = findLength1 === findLength2
+console.log(falsyLength)
 
 
 
