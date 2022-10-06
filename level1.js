@@ -87,5 +87,21 @@
 // console.log(tOrf9)
 
 /////////////Level 1 - 3rd part/////////////
-const getYear = new Date()
-console.log(getYear.getFullYear())
+// const newDate = new Date()
+// console.log(newDate.getFullYear())
+
+// console.log(newDate.getMonth())
+
+// console.log(newDate.getDate())
+
+// console.log(newDate.getDay())
+
+// console.log(newDate.getHours())
+
+// console.log(newDate.getMinutes())
+
+// const getAllSeconds = Date.now()
+// console.log(getAllSeconds)
+
+
+/////////////Level 2 - 1st part/////////////
