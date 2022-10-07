@@ -106,11 +106,21 @@
 
 /////////////Level 2 - 1st part/////////////
 // window.prompt()
-let areaOfTri = prompt('Enter Base')
-console.log(areaOfTri)
-let areaOfTri1 = prompt('Enter Height')
-console.log(areaOfTri1)
+// let areaOfTri = prompt.Number('Enter Base')
+// console.log(areaOfTri)
+// let areaOfTri1 = prompt('Enter Height')
+// console.log(areaOfTri1)
 
-let newAre = Math.floor(0.5 * areaOfTri * areaOfTri1)
-alert(`the new area of triangle is ${newAre}`)
-console.log(newAre)
+// let newAre = Math.floor(0.5 * areaOfTri * areaOfTri1)
+// alert(`the new area of triangle is ${newAre}`)
+// console.log(newAre)
+
+let thePerimeterA = Number(prompt('Enter side a:'))
+console.log(typeof thePerimeterA)
+let thePerimeterB = Number(prompt('Enter side b:'))
+console.log(thePerimeterB)
+let thePerimeterC = Number(prompt('Enter side c:'))
+console.log(thePerimeterC)
+
+let findPerimeter = Math.floor(thePerimeterA + thePerimeterB + thePerimeterC)
+console.log(findPerimeter)
