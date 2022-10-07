@@ -125,12 +125,27 @@
 // let findPerimeter = Math.floor(thePerimeterA + thePerimeterB + thePerimeterC)
 // console.log(findPerimeter)
 
-let length = Number(prompt("Enter the length"))
-console.log(length)
-let width = Number(prompt("Enter the width"))
-console.log(width)
+// let length = Number(prompt("Enter the length"))
+// console.log(length)
+// let width = Number(prompt("Enter the width"))
+// console.log(width)
 
-let getPrimeter = Math.floor(2 * (length + width))
-console.log(getPrimeter)
-let theArea = Math.floor(length * width * getPrimeter)
-console.log(theArea)
+// let getPrimeter = Math.floor(2 * (length + width))
+// console.log(getPrimeter)
+// let theArea = Math.floor(length * width * getPrimeter)
+// console.log(theArea)
+
+const pi = 3.14
+
+let circleR = Number(prompt("Enter R"))
+console.log(circleR)
+let circleR2 = Number(prompt("Enter R2"))
+console.log(circleR2)
+
+let allR = circleR + circleR2
+
+let getTheAre = pi * circleR * circleR2 
+console.log(getTheAre)
+
+let theCC = 2 * pi * allR
+console.log(theCC)
