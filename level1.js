@@ -135,17 +135,49 @@
 // let theArea = Math.floor(length * width * getPrimeter)
 // console.log(theArea)
 
-const pi = 3.14
+// const pi = 3.14
 
-let circleR = Number(prompt("Enter R"))
-console.log(circleR)
-let circleR2 = Number(prompt("Enter R2"))
-console.log(circleR2)
+// let circleR = Number(prompt("Enter R"))
+// console.log(circleR)
+// let circleR2 = Number(prompt("Enter R2"))
+// console.log(circleR2)
 
-let allR = circleR + circleR2
+// let allR = circleR + circleR2
 
-let getTheAre = pi * circleR * circleR2 
-console.log(getTheAre)
+// let getTheAre = pi * circleR * circleR2 
+// console.log(getTheAre)
 
-let theCC = 2 * pi * allR
-console.log(theCC)
+// let theCC = 2 * pi * allR
+// console.log(theCC)
+
+// const hours = Number(prompt('Enter Hours'))
+// console.log(hours)
+// const rph = Number(prompt("Enter rate per hour"))
+// console.log(rph)
+
+// const weeklyEarning = rph * hours * 4
+// console.log(alert(weeklyEarning))
+
+// const nameLong = 'Freshyy'
+
+// if ( nameLong.length > 7){
+//   console.log(`Your name ${nameLong} is long!`)
+// } else {
+//   console.log(`Your name is short my BOII!`)
+// }
+
+// const firstName = 'Freshyy'
+// const lastName = 'Itachi'
+
+// if (firstName.length > lastName.length){
+//   console.log(`Your first name, ${firstName} is longer than your family name, ${lastName}`)
+// } else {
+//   console.log(`Your last name ${lastName} is longer than your first name ${firstName}`)
+// }
+
+let myAge = 1600
+let yourAge = 29
+
+let howOld = myAge - yourAge
+console.log(`I am ${howOld} older than you`)
+
