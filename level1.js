@@ -175,9 +175,24 @@
 //   console.log(`Your last name ${lastName} is longer than your first name ${firstName}`)
 // }
 
-let myAge = 1600
-let yourAge = 29
+// let myAge = 1600
+// let yourAge = 29
 
-let howOld = myAge - yourAge
-console.log(`I am ${howOld} older than you`)
+// let howOld = myAge - yourAge
+// console.log(`I am ${howOld} older than you`)
+
+// const getBirthY = Number(prompt('Enter birth year:'))
+
+// const thisYear = 2022 - getBirthY 
+
+// if (thisYear >= 18) {
+// alert(`You are ${thisYear}. You are old enough to drive `)
+// } else if (thisYear <= 17) {
+//   alert(`You are ${thisYear}. You will be allowed to drive after ${ 18 - thisYear} years`)
+// }
+
+
+// const whsAge = Number(prompt('Enter your age please:'))
+// const checkAge = whsAge * 100*365*24*60*60
+// alert(`you lived ${checkAge} seconds.`)
 
