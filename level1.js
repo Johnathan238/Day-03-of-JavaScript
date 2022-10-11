@@ -196,3 +196,9 @@
 // const checkAge = whsAge * 100*365*24*60*60
 // alert(`you lived ${checkAge} seconds.`)
 
+let getDate = new Date().toISOString()
+let newDate = new Date().toLocaleString()
+let newDate1 = new Date().toGMTString()
+console.log(getDate)
+console.log(newDate)
+console.log(newDate1)
